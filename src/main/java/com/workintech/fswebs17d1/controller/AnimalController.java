@@ -39,7 +39,7 @@ public class AnimalController {
 
     @GetMapping
     public List<Animal> getAnimals(){
-        System.out.println("----animals get all triggered");
+        System.out.println("---animals get all triggered");
         return new ArrayList<>(animals.values());
     }
 
