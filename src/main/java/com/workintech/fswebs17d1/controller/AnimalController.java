@@ -28,7 +28,7 @@ public class AnimalController {
     public void loadAll(){
         System.out.println("postconstruct çalıştı");
         this.animals = new HashMap<>();
-        this.animals.put(1, new Animal(1, "maymun"));
+        this.animals.put(1, new Animal(1, "köpek"));
     }
 
     //http://localhost:8585/workintech/animal/config
